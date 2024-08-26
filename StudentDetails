@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Student1{
+public static void main(String[]args){
+String name,gender;
+char c;
+int a;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the rollno: ");
+a=sc.nextInt();
+sc.nextLine();
+System.out.println("Enter name: ");
+name=sc.nextLine();
+System.out.println("Enter Gender: ");
+gender=sc.next();
+c=gender.charAt(0);
+System.out.println("Your rollno :"+a);
+System.out.println("Name is: "+name);
+System.out.println("Gender is: "+gender);
+}
+}
